@@ -1,0 +1,5 @@
+SELECT OrderID,OrderAmount
+FROM Data.Orders
+ORDER BY OrderAmount DESC, OrderID
+OFFSET 0 ROWS
+FETCH FIRST 10 ROWS ONLY
